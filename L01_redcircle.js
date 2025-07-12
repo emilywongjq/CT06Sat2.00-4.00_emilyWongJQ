@@ -9,6 +9,6 @@ function draw(){
     fill(255,251,0);
     eclipse(300,150,200,200)
     fill(0,255,39);
-    eclip
+    eclipse(300)
     // Todo: Challenge 3 Traffic Light
 }
