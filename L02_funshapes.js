@@ -32,6 +32,7 @@ function draw() {
   // triangle(20,40,75,40,57,32);
   quad(20,20,80,20,80,80,20,80);
   quad(120,30,180,30,180,70,120,70);
+  quad()
   // Challenge 5: A square face using quad() function
 
   // Challenge 6: Add some colours to the drawings in the above challenges
