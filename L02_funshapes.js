@@ -23,8 +23,8 @@ function draw() {
   // Challenge 3: A house using rect() function
   //rect(50,50,100,75);
   // Give all corners a radius of 20
-  rect(200,75,300,600,30);
-  rect(215,150,50,50)
+  // rect(200,75,300,600,30);
+  // rect(215,150,50,50)
   //Give each corner a unique radius
 
   // Challenge 4: A rocketship using triangle() function
