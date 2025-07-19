@@ -3,7 +3,7 @@ const { Children } = require("react")
 //Task 1: Add the setup() function
 function setup() {
   createCanvas(700,700)
-  background()
+  background(208, 138, 255)
 }
 
 function draw() {
@@ -21,7 +21,7 @@ function draw() {
     // circle(200,350,50);
     // circle(400,350,50)
   // Challenge 3: A house using rect() function
-  rect(50,50,100,75)
+  rect(50,50,100,75);
   // Challenge 4: A rocketship using triangle() function
 
   // Challenge 5: A square face using quad() function
