@@ -1,6 +1,6 @@
-/*
-Task 1: Add the setup() function
-*/
+
+//Task 1: Add the setup() function
+
 
 function draw() {
   // Challenge 1: An eye using ellipse() function
