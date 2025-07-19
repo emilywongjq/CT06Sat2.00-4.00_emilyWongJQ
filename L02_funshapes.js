@@ -15,11 +15,11 @@ function draw() {
   // Challenge 2: A face using circle() function
   // circle(300,200,150)
   // circle(350,200,100)
-    circle(300,400,400);
-    circle(115,200,150);
-    circle(485,200,150);
-    circle(200,350,50);
-    circle(400,350,50)
+    // circle(300,400,400);
+    // circle(115,200,150);
+    // circle(485,200,150);
+    // circle(200,350,50);
+    // circle(400,350,50)
   // Challenge 3: A house using rect() function
 
   // Challenge 4: A rocketship using triangle() function
