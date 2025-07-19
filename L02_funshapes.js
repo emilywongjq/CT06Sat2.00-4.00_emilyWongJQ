@@ -2,7 +2,7 @@ const { Children } = require("react")
 
 //Task 1: Add the setup() function
 function setup() {
-  createCanvas(600)
+  createCanvas(700,700)
   background(116, 2, 191)
 }
 
