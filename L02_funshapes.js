@@ -28,7 +28,7 @@ function draw() {
   //Give each corner a unique radius
 
   // Challenge 4: A rocketship using triangle() function
-  triangle(30,75,)
+  triangle(30,75,58,20,86)
   // Challenge 5: A square face using quad() function
 
   // Challenge 6: Add some colours to the drawings in the above challenges
