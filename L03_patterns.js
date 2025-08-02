@@ -39,6 +39,7 @@ function draw() {
   let circleDiameter = 30;
   let numOfCircles = 5;
   let totalWidth = circleDiameter * numOfCircles;
-  let startX = (width - totalWidth)/2 +
+  let startX = (width - totalWidth)/2 + circleDiameter/2;
+  
 
 }
