@@ -46,8 +46,8 @@ function draw() {
 
   for (let i = 0; i< numOfCircles; i++){
     let x = startX + i * circleDiameter;
-    ellipse(x = startXheight/2,circleDiameter , circleDiameter);
-    circle(x,height/2,circleDiameter);
+    ellipse(x = startX , height/2,circleDiameter , circleDiameter);
+    circle(xheight/2,circleDiameter);
   }
 
 }
