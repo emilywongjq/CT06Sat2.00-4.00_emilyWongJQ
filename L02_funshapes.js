@@ -23,8 +23,8 @@ function draw() {
   //rect(50,50,100,75);
   // Give all corners a radius of 20
   // rect(200,75,300,600,30);
-    stroke(255, 180, 173);
-    rect(215,150,50,50);
+    // stroke(255, 180, 173);
+    // rect(215,150,50,50);
   // fill(237, 89, 76)
   //Give each corner a unique radius
 
