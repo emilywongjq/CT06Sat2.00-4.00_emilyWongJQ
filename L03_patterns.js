@@ -31,7 +31,9 @@ function draw() {
   //     fill(0);
   //   }
   //   circle(50 + i * 50,100,40);
-  }
   // Task 3: Row of Circles
 
   // Task 4: Grid of Circles
+  rect(0,50,width,100);
+  circle(width / 2 , height / 2);
+}
