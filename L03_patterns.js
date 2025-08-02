@@ -51,7 +51,6 @@ function draw() {
       ellipse(x ,rowY , height/2,circleDiameter , circleDiameter);
       // circle(x = startX , height/2,circleDiameter);
     }
-    
   }
 
 }
