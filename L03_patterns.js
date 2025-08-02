@@ -37,6 +37,6 @@ function draw() {
   // rect(0,50,width,100);
   // circle(width / 9 , height / 2,50);
   let circleDiameter = 30;
-  
+  let numOf
 
 }
