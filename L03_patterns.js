@@ -50,7 +50,7 @@ function draw() {
       let x = startX + i * circleDiameter;
       ellipse(x ,rowY , height/2,circleDiameter , circleDiameter);
       // circle(x = startX , height/2,circleDiameter);
-  }
+    }
     
   }
 
