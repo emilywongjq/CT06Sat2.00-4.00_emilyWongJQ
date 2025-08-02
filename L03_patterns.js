@@ -38,8 +38,9 @@ function draw() {
   // circle(width / 9 , height / 2,50);
   //find diameter of circle
   let circleDiameter = 30;
-  //find nu,mber 
+  //find number of circles
   let numOfCircles = 5;
+  //
   let totalWidth = circleDiameter * numOfCircles;
   let startX = (width - totalWidth)/2 + circleDiameter/2;
 
