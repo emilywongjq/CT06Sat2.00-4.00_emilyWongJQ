@@ -34,6 +34,7 @@ function draw() {
   // Task 3: Row of Circles
 
   // Task 4: Grid of Circles
-  rect(0,50,width,100);
-  circle(width / 9 , height / 2,50);
+  // rect(0,50,width,100);
+  // circle(width / 9 , height / 2,50);
+  
 }
