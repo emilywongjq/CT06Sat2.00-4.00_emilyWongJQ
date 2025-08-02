@@ -35,5 +35,5 @@ function draw() {
 
   // Task 4: Grid of Circles
   rect(0,50,width,100);
-  circle(width / 2 , height / 2);
+  circle(width / 2 , height / 2,50);
 }
