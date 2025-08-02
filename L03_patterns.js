@@ -38,6 +38,7 @@ function draw() {
   // circle(width / 9 , height / 2,50);
   let circleDiameter = 30;
   let numOfCircles = 5;
-  let totalWidth = circleDiameter 
+  let totalWidth = circleDiameter * numOfCircles;
+  
 
 }
