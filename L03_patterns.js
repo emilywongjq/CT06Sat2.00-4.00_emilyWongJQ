@@ -1,6 +1,6 @@
 let colourValue = 0; 
 function setup() {
-    createCanvas(400,200);
+    createCanvas(800,800);
     background(167, 153, 255);
     // noLoop(); // Stops continuous drawing
   }
@@ -24,15 +24,17 @@ function draw() {
   // }
   // console.log(15%4)
   // Task 2: Colour Loop
-  for(let i = 0 ; i < 5 ; i++){
-    if ( i % 2 === 0){
-      fill(255);
-    }else{
-      fill(0);
-    }
-    circle(50 + i * 50,100,40);
+  // for(let i = 0 ; i < 5 ; i++){
+  //   if ( i % 2 === 0){
+  //     fill(255);
+  //   }else{
+  //     fill(0);
+  //   }
+  //   circle(50 + i * 50,100,40);
   }
   // Task 3: Row of Circles
 
   // Task 4: Grid of Circles
-}
+
+  rect(0,50,width,100);
+  circle(width / 2 , height / 2);
