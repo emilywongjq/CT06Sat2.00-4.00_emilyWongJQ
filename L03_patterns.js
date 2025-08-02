@@ -44,12 +44,14 @@ function draw() {
   let totalWidth = circleDiameter * numOfCircles;
   let startX = (width - totalWidth)/2 + circleDiameter/2;
   let startY = (height - totalWidth)/2 + circleDiameter/2;
-  for (let row = 0; row<numOfCircles;row++);
+  for (let row = 0; row<numOfCircles;row++){
     let rowY = startY + (circleDiameter * row);
     for (let i = 0; i< numOfCircles; i++){
       let x = startX + i * circleDiameter;
       ellipse(x ,rowY , height/2,circleDiameter , circleDiameter);
       // circle(x = startX , height/2,circleDiameter);
+  }
+    
   }
 
 }
