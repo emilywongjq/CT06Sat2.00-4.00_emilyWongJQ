@@ -1,16 +1,37 @@
+let colourValue = 0; 
 function setup() {
-    createCanvas(600, 400);
-    background(220);
-    noLoop(); // Stops continuous drawing
+    createCanvas(400,200);
+    background(167, 153, 255);
+    // noLoop(); // Stops continuous drawing
   }
   
 function draw() {
+  // fill(255, 148, 138);
+  // circle(75,200,100);
+  // fill(255, 251, 138);
+  // circle(225,200,100);
+  // fill(144, 255, 138);
+  // circle(375,200,100);
+  // fill(138, 200, 255);
+  // circle(525,200,100);
   // Recap 1: Repeating Circles
-
   // Task 1: Colour Gradient
-
+  // let spacing = 120;
+  // for (let i = 0; i < 5 ; i++) {
+  //   fill(colourValue);
+  //   circle(50 + i * 50,100,40);
+  //   colourValue += 1;
+  // }
+  // console.log(15%4)
   // Task 2: Colour Loop
-
+  for(let i = 0 ; i < 5 ; i++){
+    if ( i % 2 === 0){
+      fill(255);
+    }else{
+      fill(0);
+    }
+    circle(50 + i * 50,100,40);
+  }
   // Task 3: Row of Circles
 
   // Task 4: Grid of Circles
