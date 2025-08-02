@@ -36,7 +36,7 @@ function draw() {
   // Task 4: Grid of Circles
   // rect(0,50,width,100);
   // circle(width / 9 , height / 2,50);
-  
+  //find diameter of circle
   let circleDiameter = 30;
   let numOfCircles = 5;
   let totalWidth = circleDiameter * numOfCircles;
