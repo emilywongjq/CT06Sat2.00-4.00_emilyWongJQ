@@ -32,7 +32,7 @@ function draw(){
     fill(shapeColor);
     //change
     if(mouseIsPressed){
-        triangle(x1,y1,x2,x3,height);
+        triangle(x1,y1,x2,x3,y3);
     }
 }
 
