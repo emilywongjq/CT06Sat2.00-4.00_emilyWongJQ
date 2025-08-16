@@ -31,7 +31,7 @@ function setup(){
 
 function draw(){
     fill(shapeColor);
-    triangle(100,150,150,90,90,75);
+    triangle(100,150,150,90,90);
 }
 
 function mousePressed(){
