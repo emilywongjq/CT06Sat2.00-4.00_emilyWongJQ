@@ -9,7 +9,7 @@ function draw(){
     ellipse(200,200,80,80);
 }
 function mousePressed(){
-    shapecolour = 'red'
+    shapecolour = colour(random(255),random(255))
 }
 function mouseReleased(){
     shapecolour = colour(random(255),random(255))
