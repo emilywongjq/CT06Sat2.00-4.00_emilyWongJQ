@@ -12,5 +12,5 @@ function mousePressed(){
     shapecolour = 'red'
 }
 function mouseReleased(){
-    shapecolour = colour(random(255))
+    shapecolour = colour(random(255),random(255))
 }
