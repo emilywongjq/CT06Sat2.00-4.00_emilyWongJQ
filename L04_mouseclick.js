@@ -39,7 +39,6 @@ function draw(){
     //change
     if(mouseIsPressed){
         triangle(x1,y1,x2,width,height);
-
     }
 }
 
