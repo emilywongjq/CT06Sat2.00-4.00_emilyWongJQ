@@ -106,10 +106,6 @@ function setup(){
     background(200);
 }
 
-// function draw(){
-//     fill(shapeColor);
-//     ellipse(mouseX,mouseY,circleSize,circleSize)
-// }
 function mouseDragged(){
     fill(random(255), random(255),random(255));
     ellipse(mouseX,mouseY,circleSize,circleSize);
