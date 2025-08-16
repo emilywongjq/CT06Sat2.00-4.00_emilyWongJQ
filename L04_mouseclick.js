@@ -31,7 +31,8 @@ function setup(){
 let x1 = random(400);
 let y1 = random(400);
 let x2 = random(400);
-let width = 
+let width = random(400);
+height
 function draw(){
     fill(shapeColor);
     triangle(90,90,150,90,90);
