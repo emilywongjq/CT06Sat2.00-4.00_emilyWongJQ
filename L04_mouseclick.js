@@ -111,11 +111,11 @@ function setup(){
 //     ellipse(mouseX,mouseY,circleSize,circleSize)
 // }
 function mouseDragged(){
-    fill(random(255), random(255),random(255))
-    ellipse(mouseX,mouseY,circleSize,circleSize)
+    fill(random(255), random(255),random(255));
+    ellipse(mouseX,mouseY,circleSize,circleSize);
 }
 function mousePressed(){
-    shapeColor = color(random(255), random(255),random(255))
+    shapeColor = color(random(255), random(255),random(255));
     circleSize = 20;
 }
 
