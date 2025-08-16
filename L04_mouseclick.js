@@ -83,7 +83,6 @@ function setup(){
 }
 
 function draw(){
-    b
     fill(shapeColor);
     ellipse(mouseX,mouseY,circleSize,circleSize)
 }
