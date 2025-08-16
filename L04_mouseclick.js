@@ -28,12 +28,6 @@ function setup(){
     createCanvas(400,400)
     background(200);
 }
-let x1 = random(width);
-let y1 = random(height);
-let x2 = random(width);
-let width = random(400);
-let height = random(400);
-
 function draw(){
     fill(shapeColor);
     //change
