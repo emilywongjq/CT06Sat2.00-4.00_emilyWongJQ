@@ -82,11 +82,11 @@ function setup(){
     background(200);
 }
 
-// function draw(){
-//     background(220);
-//     fill(shapeColor);
-//     ellipse(mouseX,mouseY,circleSize,circleSize)
-// }
+function draw(){
+    background
+    fill(shapeColor);
+    ellipse(mouseX,mouseY,circleSize,circleSize)
+}
 
 function mousePressed(){
     shapeColor = color(random(255), random(255),random(255))
