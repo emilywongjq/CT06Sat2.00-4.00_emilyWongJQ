@@ -116,7 +116,7 @@ function mouseDragged(){
 }
 function mousePressed(){
     shapeColor = color(random(255), random(255),random(255));
-    circleSize = 20;
+    circleSize = random(50);
 }
 
 function mouseReleased(){
