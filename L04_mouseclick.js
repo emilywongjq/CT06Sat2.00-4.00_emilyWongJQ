@@ -7,5 +7,5 @@ function setup(){
 
 function draw(){
     fill(shapecolour);
-    ellipse()
+    ellipse(200,200,80);
 }
