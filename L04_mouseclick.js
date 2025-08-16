@@ -100,7 +100,7 @@
 // }
 //____________________________________________
 let shapeColor ="blue";
-let circleSize = 20;
+let circleSize = random();
 function setup(){
     createCanvas(400,400)
     background(200);
