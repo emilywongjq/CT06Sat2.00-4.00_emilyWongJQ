@@ -32,11 +32,6 @@ function draw(){
     fill(shapeColor);
     //change
     if(mouseIsPressed){
-        let x1 = random(width);
-    let y1 = random(height);
-    let x2 = random(width);
-    let width = random(400);
-    let height = random(400);
         triangle(x1,y1,x2,width,height);
     }
 }
