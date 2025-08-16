@@ -1,16 +1,21 @@
 // write your codes here
-let shapecolour = 'blue'
+
+let shapeColor ="blue";
+
 function setup(){
-    createCanvas(400, 400);
+    createCanvas(400,400)
     background(200);
 }
+
 function draw(){
-    fill(shapecolour);
-    ellipse(200,200,80,80);
+    fill(shapeColor);
+    ellipse(200,200,80,80)
 }
+
 function mousePressed(){
-    shapecolour = colour(random(255),random(255),random(255))
+    shapeColor = color(random(255), random(255),random(255))
 }
+
 function mouseReleased(){
-    shapecolour = colour(random(255),random(255),random(255))
+    shapeColor = color(random(255), random(255),random(255))
 }
