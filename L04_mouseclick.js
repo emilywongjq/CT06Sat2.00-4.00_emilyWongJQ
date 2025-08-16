@@ -28,10 +28,10 @@ function setup(){
     createCanvas(400,400)
     background(200);
 }
-
+let 
 function draw(){
     fill(shapeColor);
-    triangle(random(400),random(),150,90,90);
+    triangle(90,90,150,90,90);
 }
 
 function mousePressed(){
