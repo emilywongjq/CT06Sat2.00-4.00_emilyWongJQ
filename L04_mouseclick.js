@@ -6,6 +6,6 @@ function setup(){
 }
 
 function draw(){
-    
+    fill(shapecolour)
     circle()
 }
