@@ -29,6 +29,7 @@ function setup(){
     background(200);
 }
 let x1 = random(400)
+let y1 = random
 function draw(){
     fill(shapeColor);
     triangle(90,90,150,90,90);
