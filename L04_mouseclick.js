@@ -1,5 +1,5 @@
 // write your codes here
-let shapecolour = 
+let shapecolour = random(255)
 function setup(){
     createCanvas(400, 400);
     background(200);
