@@ -28,7 +28,7 @@ function setup(){
     createCanvas(400,400)
     background(200);
 }
-let 
+let x1 = random(400)
 function draw(){
     fill(shapeColor);
     triangle(90,90,150,90,90);
