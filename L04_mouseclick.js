@@ -29,10 +29,13 @@ function setup(){
     background(200);
 }
 let x1 = random(400);
+
 let y1 = random(400);
+
 let x2 = random(400);
 let width = random(400);
-let height = random(400)
+let height = random(400);
+
 function draw(){
     fill(shapeColor);
     triangle(90,90,150,90,90);
