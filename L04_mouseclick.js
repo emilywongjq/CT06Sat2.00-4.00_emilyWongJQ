@@ -28,7 +28,7 @@ function setup(){
     createCanvas(400,400)
     background(200);
 }
-let x1 = random(400);
+let x1 = random(width);
 let y1 = random(400);
 let x2 = random(400);
 let width = random(400);
