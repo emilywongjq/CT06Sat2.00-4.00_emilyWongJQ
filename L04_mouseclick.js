@@ -36,7 +36,7 @@ let height = random(400);
 
 function draw(){
     fill(shapeColor);
-    triangle(x1,y1,x2,);
+    triangle(x1,y1,x2,width,height);
 }
 
 function mousePressed(){
