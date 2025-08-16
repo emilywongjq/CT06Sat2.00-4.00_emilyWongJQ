@@ -106,10 +106,10 @@ function setup(){
     background(200);
 }
 
-function draw(){
-    fill(shapeColor);
-    ellipse(mouseX,mouseY,circleSize,circleSize)
-}
+// function draw(){
+//     fill(shapeColor);
+//     ellipse(mouseX,mouseY,circleSize,circleSize)
+// }
 
 function mousePressed(){
     shapeColor = color(random(255), random(255),random(255))
