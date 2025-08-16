@@ -108,6 +108,7 @@ function setup(){
 
 function mouseDragged(){
     fill(random(255), random(255),random(255));
+    circleSize
     ellipse(mouseX,mouseY,circleSize,circleSize);
 }
 function mousePressed(){
