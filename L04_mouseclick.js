@@ -96,5 +96,5 @@ function mouseReleased(){
     shapeColor = color(random(255), random(255),random(255))
 }
 function mouseMoved(){
-    
+    circleSize += 1
 }
