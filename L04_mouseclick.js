@@ -29,7 +29,7 @@ function setup(){
     background(200);
 }
 let x1 = random(width);
-let y1 = random(400);
+let y1 = random(height);
 let x2 = random(400);
 let width = random(400);
 let height = random(400);
