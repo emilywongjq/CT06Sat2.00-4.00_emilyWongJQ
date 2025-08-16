@@ -41,6 +41,7 @@ function mousePressed(){
     let x1 = random(width);
     let y1 = random(height);
     let x2 = random(width);
+    let y2 = random()
     let width = random(400);
     let height = random(400);
 }
