@@ -43,5 +43,9 @@ function draw(){
 }
 
 function keyPressed(){
-    rectSize = 
+    rectSize = 100;
+}
+
+function keyReleased(){
+    
 }
