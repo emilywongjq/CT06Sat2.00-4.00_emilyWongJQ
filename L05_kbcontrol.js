@@ -34,6 +34,7 @@
 let rectSize = 50;
 
 function setup(){
-    createCanvas(300,300)
+    createCanvas(300,300);
 }
+
 
