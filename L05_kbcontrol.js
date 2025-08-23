@@ -12,5 +12,6 @@ function mouseReleased(){
 
 function mouseDragged(){
     circleSize += 0.5;
+    noStroke()
     ellipse(mouseX,mouseY,circleSize,circleSize);
 }
