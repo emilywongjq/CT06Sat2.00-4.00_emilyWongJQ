@@ -17,17 +17,17 @@
 //     shapeColor = color(random(255), random(255),random(255));
 //     ellipse(mouseX,mouseY,circleSize,circleSize);
 // }
-//more revision
+//more revision (line of circles)
 
-function setup(){
-    createCanvas(600,600);
-    background(200);
-}
-function draw(){
-    for(let i = 0 ; i<5 ; i++){
-        fill(0 , i * 50 , 0);
-        circle( 100 + i*100 , 100 + i*100 , 75);
-    }
-}
+// function setup(){
+//     createCanvas(600,600);
+//     background(200);
+// }
+// function draw(){
+//     for(let i = 0 ; i<5 ; i++){
+//         fill(0 , i * 50 , 0);
+//         circle( 100 + i*100 , 100 + i*100 , 75);
+//     }
+// }
 
 
