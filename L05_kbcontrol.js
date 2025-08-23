@@ -9,6 +9,7 @@ function setup(){
 
 function mousePressed(){
     fill(color(random(255), random(255),random(255)));
+    circleSize = 5
 }
 function mouseDragged(){
     circleSize += 0.5;
