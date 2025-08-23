@@ -10,7 +10,6 @@ function mouseReleased(){
 }
 
 function mouseDragged(){
-    fill(shapeColour)
     circleSize += 2
     ellipse(mouseX,mouseY,circleSize,circleSize);
 }
