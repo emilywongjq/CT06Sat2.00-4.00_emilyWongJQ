@@ -2,7 +2,7 @@
 let shapeColor = "blue"
 let circleSize = 5;
 function setup(){
-    createCanvas(800,800)
+    createCanvas(750,750)
     background(200);
     noStroke()
 }
