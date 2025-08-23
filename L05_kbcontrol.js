@@ -20,11 +20,11 @@
 //more revision
 
 function setup(){
-    createCanvas(750,750);
+    createCanvas(600,750);
     background(200);
 }
 function draw(){
-    circle(375,375,100);
+    circle(300,300,100);
 }
 
 
