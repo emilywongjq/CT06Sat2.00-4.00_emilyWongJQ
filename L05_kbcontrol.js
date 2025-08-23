@@ -1,11 +1,11 @@
 //revision
 // let shapeColor = "blue"
 // let circleSize = 5;
-// function setup(){
-//     createCanvas(750,750)
-//     background(200);
-//     noStroke()
-// }
+function setup(){
+    createCanvas(750,750)
+    background(200);
+    noStroke()
+}
 
 
 // function mousePressed(){
