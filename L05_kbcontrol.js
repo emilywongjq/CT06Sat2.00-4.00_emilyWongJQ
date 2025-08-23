@@ -33,7 +33,7 @@ function setup(){
 }
 function draw(){
     for(let i = 0 ; i<5 ; i++){
-        circle( 50 + i*50 , 50 + i*50)
+        circle( 100 + i*100 , 50 + i*50)
     }
 }
 
