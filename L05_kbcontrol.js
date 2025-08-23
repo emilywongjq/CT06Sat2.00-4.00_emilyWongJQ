@@ -20,7 +20,7 @@
 //more revision
 
 function setup(){
-    createCanvas(600,750);
+    createCanvas(600,600);
     background(200);
 }
 function draw(){
