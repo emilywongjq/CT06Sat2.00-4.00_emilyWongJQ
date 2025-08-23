@@ -4,6 +4,7 @@ function setup(){
     createCanvas(400,400)
     background(200);
 }
+
 function mouseReleased(){
     shapeColor = color(random(255), random(255),random(255));
 }
