@@ -1,3 +1,4 @@
+
 let shapeColor = "blue"
 let circleSize = 5;
 function setup(){
@@ -12,7 +13,7 @@ function mousePressed(){
     circleSize = 5
 }
 function mouseDragged(){
-    circleSize += 0.5;
+    circleSize += 0.3;
     shapeColor = color(random(255), random(255),random(255));
     ellipse(mouseX,mouseY,circleSize,circleSize);
 }
