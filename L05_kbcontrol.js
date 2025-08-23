@@ -7,7 +7,7 @@ function setup(){
 
 function mouseDragged(){
     circleSize += 2
-    
+    fill()
     ellipse(mouseX,mouseY,circleSize,circleSize);
 }
 
