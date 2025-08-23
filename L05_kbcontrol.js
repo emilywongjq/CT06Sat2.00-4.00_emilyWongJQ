@@ -9,7 +9,7 @@ function mouseReleased(){
     shapeColor = color(random(0,255), random(0,255),random(0,255));
     circleSize = 20;
 }
-
+function mousePressed()
 function mouseDragged(){
     circleSize += 0.5;
     noStroke()
