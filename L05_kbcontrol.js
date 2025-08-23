@@ -7,10 +7,10 @@ function setup(){
 
 function mouseReleased(){
     shapeColor = color(random(255), random(255),random(255));
-    circleSize = 20
+    circleSize = 20;
 }
 
 function mouseDragged(){
-    circleSize += 2
+    circleSize += 2;
     ellipse(mouseX,mouseY,circleSize,circleSize);
 }
