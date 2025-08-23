@@ -24,7 +24,8 @@ function setup(){
     background(200);
 }
 function draw(){
-    circle(100,100,75)
+    circle(100,100,75);
+    circle
     circle(300,300,75);
 }
 
