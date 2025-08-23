@@ -7,11 +7,8 @@ function setup(){
 
 function mouseDragged(){
     fill(random(255), random(255),random(255));
-    circleSize = random(10,100);
+    circleSize += 2
     ellipse(mouseX,mouseY,circleSize,circleSize);
-}
-function mousePressed(){
-    shapeColor = color(random(255), random(255),random(255));
 }
 
 function mouseReleased(){
