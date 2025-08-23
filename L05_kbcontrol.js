@@ -13,5 +13,6 @@ function mouseReleased(){
 function mouseDragged(){
     circleSize += 0.5;
     noStroke()
+    shapeColor = color(random(255), random(255),random(255));
     ellipse(mouseX,mouseY,circleSize,circleSize);
 }
