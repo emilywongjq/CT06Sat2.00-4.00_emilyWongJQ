@@ -19,14 +19,6 @@
 // }
 //more revision
 
-// function setup(){
-//     createCanvas(600,600);
-//     background(200);
-// }
-// function draw(){
-//     circle(width/2,height/2,75);
-// }
-
 function setup(){
     createCanvas(600,600);
     background(200);
