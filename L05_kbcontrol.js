@@ -11,6 +11,6 @@ function mouseReleased(){
 }
 
 function mouseDragged(){
-    circleSize += 0.2;
+    circleSize += 0.5;
     ellipse(mouseX,mouseY,circleSize,circleSize);
 }
