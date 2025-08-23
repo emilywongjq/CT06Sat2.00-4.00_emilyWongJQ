@@ -24,5 +24,5 @@ function setup(){
     background(200);
 }
 
-circle()
+circle(375,375,)
 
