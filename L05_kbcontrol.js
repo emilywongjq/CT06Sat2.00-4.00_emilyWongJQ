@@ -23,6 +23,6 @@ function setup(){
     createCanvas(750,750)
     background(200);
 }
-
-circle(375,375,)
+function draw()
+circle(375,375,10)
 
