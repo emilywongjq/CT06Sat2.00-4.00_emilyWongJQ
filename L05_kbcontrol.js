@@ -7,6 +7,7 @@ function setup(){
 
 function mouseReleased(){
     shapeColor = color(random(255), random(255),random(255));
+    circleSize = 20
 }
 
 function mouseDragged(){
