@@ -6,10 +6,7 @@ function setup(){
     noStroke()
 }
 
-function mouseReleased(){
-    shapeColor = color(random(0,255), random(0,255),random(0,255));
-    circleSize = 20;
-}
+
 function mousePressed(){
     fill(color(random(255), random(255),random(255)));
 }
