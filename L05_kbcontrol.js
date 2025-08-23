@@ -28,7 +28,7 @@ function draw(){
     circle(200,200,75);
     circle(width/2,height/2,75);
     circle(400,400,75);
-    circle(500,500,75);
+    circle(width/6*5,height,75);
 }
 
 
