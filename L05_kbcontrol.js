@@ -31,7 +31,7 @@
 // }
 
 
-let circleSize = random(10,)
+let circleSize = random(10,70);
 
 function setup(){
     createCanvas(300,300);
