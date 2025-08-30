@@ -47,6 +47,6 @@ function keyPressed(){
 }
 
 function keyReleased(){
-    circleSize = 50;
+    
 }
 
