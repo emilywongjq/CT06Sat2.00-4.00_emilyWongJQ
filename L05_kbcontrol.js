@@ -32,7 +32,7 @@
 
 
 let circleSize = random(10,70);
-let 
+let nocircles = 
 
 function setup(){
     createCanvas(300,300);
