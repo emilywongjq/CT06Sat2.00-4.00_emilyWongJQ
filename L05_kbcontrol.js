@@ -98,6 +98,6 @@ function draw(){
         circle(width/2 , height/2 , 100);
     }
     if (keyCode == 40){
-        circleColo
+        circleColour = 'black'
     }
 }
