@@ -142,5 +142,5 @@ function draw(){
         circleColour = 'blue'
     }
     fill(circleColour);
-    circleColour()
+    circle(width/2,h)
 }
