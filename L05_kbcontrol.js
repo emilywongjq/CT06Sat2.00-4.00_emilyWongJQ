@@ -139,6 +139,6 @@ function draw(){
         circleColour = 'green';
     }
     else if (mouseX < 300){
-        
+        circleColour = 'blue'
     }
 }
