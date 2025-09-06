@@ -93,8 +93,10 @@ function setup(){
 
 function draw(){
     background(220);
+    fill(circleColour);
+circle(width/2 , height/2 , 100);
     if (keyCode == 38){
-        circleColour = 'red'
+        circleColour = 'red';
     }
     if (keyCode == 40){
         circleColour = 'black'
