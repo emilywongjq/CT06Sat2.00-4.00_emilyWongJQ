@@ -70,6 +70,7 @@
 // }
 
 let showCircle = false; 
+let show
 
 function setup(){
     createCanvas(600,600);
@@ -86,6 +87,6 @@ function keyPressed(){
         showCircle = ! showCircle;
     }
     if (key === 's'){
-        
+
     }
 }
