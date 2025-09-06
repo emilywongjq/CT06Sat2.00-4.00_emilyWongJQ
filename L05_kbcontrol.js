@@ -57,7 +57,7 @@ function setup(){
     createCanvas(600,600);
 }
 function draw() {
-    background();
+    background(170);
     if (showCircle){
         circle(width / 2,height / 2 ,100);
     }
