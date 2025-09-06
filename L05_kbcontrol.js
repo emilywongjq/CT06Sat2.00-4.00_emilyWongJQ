@@ -90,6 +90,6 @@ function keyPressed(){
         showRect = ! showRect;
     }
     if (key === 't'){
-        showTri = ! sho
+        showTri = ! showTri;
     }
 }
