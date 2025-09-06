@@ -75,7 +75,7 @@ function setup(){
 }
 function draw() {
     background(170);
-    if (key === 'c'){
+    if (keyCode === ){
         circle(width/2 ,height/2 , 100);
     }
     if (key === 's'){
