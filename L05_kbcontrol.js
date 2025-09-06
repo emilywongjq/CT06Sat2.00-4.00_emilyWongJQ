@@ -103,7 +103,6 @@
 //     }
 // }
 
-let circleColour = 'red'
 function setup(){
     createCanvas(600,600);
 }
@@ -111,7 +110,7 @@ function setup(){
 function draw(){
     background(220);
     if (keyCode == 87){
-        circleColour = 'red';
+        fill()
     }
     if (keyCode == 40){
         circleColour = 'black';
