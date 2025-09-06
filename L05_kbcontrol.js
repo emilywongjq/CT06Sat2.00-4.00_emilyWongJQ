@@ -133,6 +133,6 @@ function setup(){
 function draw(){
     background(220);
     if (mouseX < 100){
-        circleColo
+        circleColour = 'red'
     }
 }
