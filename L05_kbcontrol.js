@@ -141,4 +141,5 @@ function draw(){
     else if (mouseX < 300){
         circleColour = 'blue'
     }
+    fill(circleColour)
 }
