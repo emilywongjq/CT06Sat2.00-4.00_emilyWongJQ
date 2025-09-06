@@ -99,6 +99,6 @@ circle(width/2 , height/2 , 100);
         circleColour = 'red';
     }
     if (keyCode == 40){
-        circleColour = 'black'
+        circleColour = 'black';
     }
 }
