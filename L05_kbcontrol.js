@@ -118,6 +118,9 @@ function draw(){
     else if (keyCode === 71){
         fill(0,162,0);
     }
+    else{
+        fill()
+    }
 
     circle(width/2 , height/2 , 100);
 }
