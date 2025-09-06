@@ -76,7 +76,7 @@ function setup(){
 function draw() {
     background(170);
     if (key === 'c'){
-        
+        circle(widt)
     }
     if (key === 's'){
         showRect = ! showRect;
