@@ -103,24 +103,24 @@
 //     }
 // }
 
-function setup(){
-    createCanvas(600,600);
-}
+// function setup(){
+//     createCanvas(600,600);
+// }
 
-function draw(){
-    background(220);
-    if (keyCode === 87){
-        fill(255,255,255);
-    }
-    else if (keyCode === 82){
-        fill(255,0,0);
-    }
-    else if (keyCode === 71){
-        fill(0,255,0);
-    }
-    else{
-        fill(255,255,0);
-    }
+// function draw(){
+//     background(220);
+//     if (keyCode === 87){
+//         fill(255,255,255);
+//     }
+//     else if (keyCode === 82){
+//         fill(255,0,0);
+//     }
+//     else if (keyCode === 71){
+//         fill(0,255,0);
+//     }
+//     else{
+//         fill(255,255,0);
+//     }
 
-    circle(width/2 , height/2 , 100);
-}
+//     circle(width/2 , height/2 , 100);
+// }
