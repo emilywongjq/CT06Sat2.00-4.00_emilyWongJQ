@@ -71,7 +71,7 @@
 
 let showCircle = false; 
 let showRect = false;
-let showTri = false
+let showTri = false;
 function setup(){
     createCanvas(600,600);
 }
@@ -88,5 +88,8 @@ function keyPressed(){
     }
     if (key === 's'){
         showRect = ! showRect;
+    }
+    if (key === 't'){
+        show
     }
 }
