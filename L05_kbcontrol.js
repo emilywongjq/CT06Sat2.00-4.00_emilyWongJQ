@@ -87,4 +87,6 @@
 // }
 
 let circleColour = 'red'
-
+function setup(){
+    createCanvas
+}
