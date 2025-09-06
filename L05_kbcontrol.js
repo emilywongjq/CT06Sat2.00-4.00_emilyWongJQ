@@ -70,7 +70,7 @@
 // }
 
 let showCircle = false; 
-let show
+let showRect = false;
 
 function setup(){
     createCanvas(600,600);
