@@ -110,7 +110,7 @@ function setup(){
 
 function draw(){
     background(220);
-    if (keyCode == 38){
+    if (keyCode == 87){
         circleColour = 'red';
     }
     if (keyCode == 40){
