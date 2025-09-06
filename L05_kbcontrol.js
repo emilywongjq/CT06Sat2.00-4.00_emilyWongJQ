@@ -125,7 +125,7 @@
 //     circle(width/2 , height/2 , 100);
 // }
 
-let 
+let circleColour = 'red'
 function setup(){
     createCanvas(600,600);
 }
