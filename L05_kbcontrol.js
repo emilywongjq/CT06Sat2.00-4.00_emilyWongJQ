@@ -79,7 +79,7 @@ function draw() {
         circle(width/2 ,height/2 , 100);
     }
     if (key === 's'){
-        rect()
+        rect(width / 2 - rect)
     }
     if (key === 't'){
         showTri = ! showTri;
