@@ -76,6 +76,7 @@ function setup(){
     createCanvas(600,400);
 }
 function draw() {
+    background(170);
     if (key === 'c'){
         showCircle = ! showCircle;
     }
