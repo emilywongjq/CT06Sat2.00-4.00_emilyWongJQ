@@ -88,5 +88,5 @@
 
 let circleColour = 'red'
 function setup(){
-    createCanvas
+    createCanvas(600,600);
 }
