@@ -76,15 +76,14 @@ function setup(){
     createCanvas(600,400);
 }
 function draw() {
-    background(170);
-    if (showCircle){
-        circle(width / 2,height / 2 ,100);
+    if (key === 'c'){
+        showCircle = ! showCircle;
     }
-    if (showRect){
-        rect(width / 2,height / 2 ,100);
+    if (key === 's'){
+        showRect = ! showRect;
     }
-    if (showTri){
-        triangle(20,30,60,60,100,300);
+    if (key === 't'){
+        showTri = ! showTri;
     }
 }
 
