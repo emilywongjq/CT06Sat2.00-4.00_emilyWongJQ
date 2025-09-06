@@ -94,11 +94,13 @@ function setup(){
 function draw(){
     background(220);
     if (keyCode == 38){
+        
         fill(circleColour);
         circle(width/2 , height/2 , 100);
     }
     if (keyCode == 40){
         circleColour = 'black'
+        fill(circleColour);
         circle(width/2 , height/2 , 100);
     }
 }
