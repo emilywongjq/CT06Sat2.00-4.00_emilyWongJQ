@@ -106,6 +106,7 @@ function setup(){
 function draw(){
     circle(width/2 ,height/2,100);
     if(keyCode == 38){
-        fill(0,0)
+        fill(255,0,0);
     }
+    
 }
