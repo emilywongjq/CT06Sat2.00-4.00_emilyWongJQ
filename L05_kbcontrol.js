@@ -85,4 +85,7 @@ function keyPressed(){
     if (key === 'c'){
         showCircle = ! showCircle;
     }
+    if (key === 's'){
+        
+    }
 }
