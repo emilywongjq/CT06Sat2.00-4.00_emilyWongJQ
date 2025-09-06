@@ -88,14 +88,4 @@ function draw() {
     }
 }
 
-function keyPressed(){
-    if (key === 'c'){
-        showCircle = ! showCircle;
-    }
-    if (key === 's'){
-        showRect = ! showRect;
-    }
-    if (key === 't'){
-        showTri = ! showTri;
-    }
-}
+
