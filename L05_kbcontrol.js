@@ -119,7 +119,7 @@ function draw(){
         fill(0,162,0);
     }
     else{
-        fill()
+        fill(255,255,0);
     }
 
     circle(width/2 , height/2 , 100);
