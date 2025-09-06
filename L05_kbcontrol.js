@@ -91,6 +91,18 @@ function setup(){
     createCanvas(600,600);
 }
 
+// function draw(){
+//     background(220);
+//     fill(circleColour);
+// circle(width/2 , height/2 , 100);
+//     if (keyCode == 38){
+//         circleColour = 'red';
+//     }
+//     if (keyCode == 40){
+//         circleColour = 'black';
+//     }
+// }
+
 function draw(){
     background(220);
     fill(circleColour);
