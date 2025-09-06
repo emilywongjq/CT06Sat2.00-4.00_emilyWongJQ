@@ -90,8 +90,7 @@ let circleColour = 'red'
 function setup(){
     createCanvas(600,600);
 }
-fill(circleColour);
-circle(width/2 , height/2 , 100);
+
 function draw(){
     background(220);
     if (keyCode == 38){
