@@ -30,21 +30,41 @@
 //     }
 // }
 
+//Excersise 1
+// let rectSize = 50;
 
-let circleSize = random(10,70);
-let nocircles = 
+// function setup() {
+//     createCanvas(400,400);
+//     noStroke();
+// }
 
-function setup(){
-    createCanvas(300,300);
+// function draw() {
+//     background(220);
+//     rect(width/2 - rectSize/2 , height/2 - rectSize/2, rectSize, rectSize);
+// }
+
+// function keyPressed() {
+//     rectSize = 100;
+// }
+
+// function keyReleased() {
+//     rectSize = 50;
+// }
+
+let showCircle = false; 
+
+function setUp(){
+    createCanvas(600,600);
 }
-
-function draw(){
+function draw() {
     background(220);
-    rect(width/2 - rectSize/2 , height/2 - rectSize / 2 , rectSize, rectSize);
+    if (showCircle){
+        circle(width / 2,height / 2 ,100);
+    }
 }
 
-
-function keyReleased(){
-    
+function keyPressed(){
+    if (key === 'c'){
+        showCircle = ! showCircle;
+    }
 }
-
