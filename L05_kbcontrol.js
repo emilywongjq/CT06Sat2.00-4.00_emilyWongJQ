@@ -110,7 +110,7 @@ function setup(){
 function draw(){
     background(220);
     if (keyCode == 87){
-        fill()
+        fill(255,255,255);
     }
     if (keyCode == 40){
         circleColour = 'black';
