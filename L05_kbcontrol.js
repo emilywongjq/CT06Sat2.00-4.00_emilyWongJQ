@@ -82,7 +82,7 @@ function draw() {
         rect(width / 2 - rectSize/2 , height/2 - rectSize/2 , rectSize, rectSize);
     }
     if (key === 't'){
-        triangle(100,150,200,100,300,50);
+        triangle(300,150,200,100,100,50);
     }
 }
 
