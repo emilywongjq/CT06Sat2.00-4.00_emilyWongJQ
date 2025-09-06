@@ -53,7 +53,7 @@
 
 let showCircle = false; 
 
-function setuccp(){
+function setup(){
     createCanvas(600,600);
 }
 function draw() {
