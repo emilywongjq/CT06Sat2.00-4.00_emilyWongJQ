@@ -125,7 +125,7 @@
 //     circle(width/2 , height/2 , 100);
 // }
 
-
+let 
 function setup(){
     createCanvas(600,600);
 }
@@ -133,6 +133,6 @@ function setup(){
 function draw(){
     background(220);
     if (mouseX < 100){
-        
+
     }
 }
