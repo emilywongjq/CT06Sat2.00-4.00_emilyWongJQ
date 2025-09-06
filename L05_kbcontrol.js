@@ -84,7 +84,7 @@ function draw() {
         rect(width / 2,height / 2 ,100);
     }
     if (showTri){
-        triangle(20);
+        triangle(20,30,60,60,);
     }
 }
 
