@@ -80,6 +80,12 @@ function draw() {
     if (showCircle){
         circle(width / 2,height / 2 ,100);
     }
+    if (showRect){
+        circle(width / 2,height / 2 ,100);
+    }
+    if (showTri){
+
+    }
 }
 
 function keyPressed(){
