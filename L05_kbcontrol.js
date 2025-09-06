@@ -68,7 +68,7 @@
 //         showCircle = ! showCircle;
 //     }
 // }
-
+rectSize
 
 function setup(){
     createCanvas(600,400);
