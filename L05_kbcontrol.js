@@ -115,6 +115,5 @@ function draw(){
     if (keyCode == 40){
         circleColour = 'black';
     }
-    fill(circleColour);
     circle(width/2 , height/2 , 100);
 }
