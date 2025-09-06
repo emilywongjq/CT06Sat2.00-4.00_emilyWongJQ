@@ -94,6 +94,6 @@ function setup(){
 function draw(){
     background(220);
     if (keyCode == 38){
-        circleColour()
+        circle(width/2)
     }
 }
