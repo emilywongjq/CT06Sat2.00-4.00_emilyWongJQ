@@ -109,11 +109,12 @@ function setup(){
 
 function draw(){
     background(220);
-    if (keyCode == 87){
+    if (keyCode === 87){
         fill(255,255,255);
     }
-    if (keyCode == 40){
-        circleColour = 'black';
+    else if (keyCode === 82){
+        fill(255,0,0);
     }
+
     circle(width/2 , height/2 , 100);
 }
