@@ -155,4 +155,21 @@ speed = 1;
 function draw(){
     background(220);
     circle( x, height / 2, 50);
+    if (keyIsDown(LEFT_ARROW)){
+        x-=5;
+    }
+    else if (keyIsDown(RIGHT_ARROW)){
+        x+=5;
+    }
+    else if (keyIsDown(UP_ARROW)){
+        y+=5;
+    }
+    else if (keyIsDown(DOWN_ARROW)){
+        y-=5;
+    }
+    if (keyIsDown(shift)){
+        speed += 1;
+    }
+    x = constrain(x, 0, 400);
+    y = constrain(y, 0, 400)
 }
