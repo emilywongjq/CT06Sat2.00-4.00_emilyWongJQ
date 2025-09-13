@@ -2,9 +2,8 @@ function setup(){
     createCanvas(400,400);
 }
 function draw(){
-    background(0);
-    stroke()
-    fill(0);
+    background(25);
+    fill(25);
     rect(100,100,100,500,500,100,500,500);
 
 }
