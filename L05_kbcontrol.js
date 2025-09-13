@@ -196,5 +196,5 @@ function draw(){
         speed += 1;
     }
     x = constrain(x, 0, 400);
-    y = constrain(y, 0, 400)
+    y = constrain(y, 0, 400);
 }
