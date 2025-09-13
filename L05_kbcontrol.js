@@ -144,6 +144,8 @@
 //     circle(width/2,height/2,100);
 // }
 
+
+
 let x = 0 ;
 function setup(){
     createCanvas(400,400);
@@ -156,9 +158,3 @@ function draw(){
     }
     circle(width/2+x,height /2,100);
 }
-
-// let x = 200;
-
-// function setup(){
-
-// }
