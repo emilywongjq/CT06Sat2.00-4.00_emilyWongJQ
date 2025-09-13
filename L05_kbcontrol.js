@@ -151,7 +151,7 @@ function setup(){
 
 function draw(){
     background(220)
-    if(kayCode == RIGHT_ARROW){
+    if(keyCode == RIGHT_ARROW){
         x+=1
     }
     circle(width/2+x,height /2,100);
