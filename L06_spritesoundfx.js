@@ -13,3 +13,4 @@
 //     constrain(x ,100, 300);
 // }
 
+let staticImage;
