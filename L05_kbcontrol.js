@@ -158,7 +158,7 @@ function draw(){
     if (keyIsDown(LEFT_ARROW)){
         x-=5;
         if(keyIsDown(SHIFT)){
-            ReadableByteStreamController,
+            ball.x -= ball.boost
         }
     }
     else if (keyIsDown(RIGHT_ARROW)){
