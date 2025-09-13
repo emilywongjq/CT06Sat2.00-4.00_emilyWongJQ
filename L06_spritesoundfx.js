@@ -6,7 +6,7 @@ let x = 200;
 let y = 200;
 function draw(){
     background(25);
-    rect(width/2+x,heigt/2+y,)
+    rect()
     if(keyIsDown(UP_ARROW)){
 
     }
