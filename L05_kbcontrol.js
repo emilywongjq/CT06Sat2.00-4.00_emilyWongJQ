@@ -167,6 +167,7 @@ function draw(){
     else if (keyIsDown(DOWN_ARROW)){
         y-=5;
     }
+    if ()
     x = constrain(x, 0, 400);
     y = constrain(y, 0, 400)
 }
