@@ -3,6 +3,6 @@ function setup(){
 }
 function draw(){
     background(25);
-    if()
+    if(kayIsDown())
     constrain(x ,100, 300);
 }
