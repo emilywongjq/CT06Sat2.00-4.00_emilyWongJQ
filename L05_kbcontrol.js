@@ -133,10 +133,10 @@ function setup(){
 function draw(){
     background(220);
     if (mouseX < 100){
-        fill(250,0,0);
+        fill(255,0,0);
     }
     else if (mouseX < 200){
-        fill(0,250,0);
+        fill(0,255,0);
     }
     else if (mouseX < 300){
         fill(0,0,250);
