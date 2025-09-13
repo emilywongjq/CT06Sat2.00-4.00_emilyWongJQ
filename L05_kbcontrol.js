@@ -151,7 +151,7 @@ let x = 200;
 function setup(){
     createCanvas(400,400);
 }
-
+speed = 1;
 function draw(){
     background(220);
     circle( x, height / 2, 50);
