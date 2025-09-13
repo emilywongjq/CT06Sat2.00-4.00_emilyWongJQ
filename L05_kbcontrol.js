@@ -154,7 +154,7 @@ function draw(){
     if(keyIsDown(RIGHT_ARROW)){
         x+=1
     }
-    circle(width)
+    circle(width/2+x,)
 }
 
 // let x = 200;
