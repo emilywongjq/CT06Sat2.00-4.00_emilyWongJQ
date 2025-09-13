@@ -168,5 +168,5 @@ function draw(){
         y-=5;
     }
     x = constrain(x, 0, 200);
-    y = constrain(y, )
+    y = constrain(y, 0, 200)
 }
