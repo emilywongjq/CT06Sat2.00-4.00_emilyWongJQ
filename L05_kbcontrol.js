@@ -154,5 +154,5 @@ function setup(){
 
 function draw(){
     background(220);
-    circle( x, height)
+    circle( x, height / 2)
 }
