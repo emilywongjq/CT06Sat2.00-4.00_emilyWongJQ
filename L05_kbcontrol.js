@@ -180,7 +180,7 @@ function draw(){
             ball.y -= ball_boost;
         }
         else{
-            ball.x -= ball_speed;
+            ball.y -= ball_speed;
         }
     }
     else if (keyIsDown(DOWN_ARROW)){
