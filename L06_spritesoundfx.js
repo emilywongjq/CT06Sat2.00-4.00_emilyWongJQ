@@ -3,5 +3,5 @@ function setup(){
 }
 function draw(){
     background(25);
-    constrain(x ,100, )
+    constrain(x ,100, 300);
 }
