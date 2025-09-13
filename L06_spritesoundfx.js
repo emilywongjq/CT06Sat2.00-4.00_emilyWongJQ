@@ -13,7 +13,7 @@
 //     constrain(x ,100, 300);
 // }
 
-let staticImage;
+let staticImage,soundEffect;
 function preload(){
     staticImage = loadImage('assets/pico-a.png');
 }
