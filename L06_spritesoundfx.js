@@ -3,7 +3,7 @@ function setup(){
 }
 
 let x = 200;
-let y 
+let y = 200;
 function draw(){
     background(25);
     if(keyIsDown(UP_ARROW))
