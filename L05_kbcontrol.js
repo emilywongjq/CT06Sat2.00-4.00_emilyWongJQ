@@ -155,7 +155,7 @@ let ball_boost = 0;
 let ball_speed = 0;
 function draw(){
     background(220);
-    circle( x, height / 2, 50);
+    circle( x, y, 50);
     if (keyIsDown(LEFT_ARROW)){
         x-=5;
         if(keyIsDown(SHIFT)){
