@@ -159,6 +159,6 @@ function draw(){
         x-=5;
     }
     else if (keyIsDown(RIGHT_ARROW)){
-        
+        x+=5;
     }
 }
