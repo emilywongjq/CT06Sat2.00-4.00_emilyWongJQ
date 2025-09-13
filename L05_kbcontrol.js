@@ -171,11 +171,17 @@ function draw(){
             ball.x += ball_boost;
         }
         else{
-            ball.x -= ball_speed;
+            ball.x += ball_speed;
         }
     }
     else if (keyIsDown(UP_ARROW)){
         y+=5;
+        if(keyIsDown(SHIFT)){
+            ball.y -= ball_boost;
+        }
+        else{
+            ball.x -= ball_speed;
+        }
     }
     else if (keyIsDown(DOWN_ARROW)){
         y-=5;
