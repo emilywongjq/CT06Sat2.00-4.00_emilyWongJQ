@@ -175,7 +175,7 @@ function draw(){
         }
     }
     else if (keyIsDown(UP_ARROW)){
-        y+=5;
+        y-=5;
         if(keyIsDown(SHIFT)){
             ball.y -= ball_boost;
         }
@@ -184,7 +184,7 @@ function draw(){
         }
     }
     else if (keyIsDown(DOWN_ARROW)){
-        y-=5;
+        y+=5;
         if(keyIsDown(SHIFT)){
             ball.y += ball_boost;
         }
