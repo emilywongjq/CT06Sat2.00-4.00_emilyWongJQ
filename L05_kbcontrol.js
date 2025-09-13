@@ -144,8 +144,10 @@
 //     circle(width/2,height/2,100);
 // }
 
-let x = 200;
 
-function setup(){
-    
-}
+
+// let x = 200;
+
+// function setup(){
+
+// }
