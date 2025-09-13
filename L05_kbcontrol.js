@@ -146,11 +146,12 @@
 
 let x = 0 ;
 function setup(){
-    createCanvas(220);
+    createCanvas(400,400);
 }
 
 function draw(){
     background(220)
+    if(keyIsDown(RIGHT_ARROW));
 }
 
 // let x = 200;
