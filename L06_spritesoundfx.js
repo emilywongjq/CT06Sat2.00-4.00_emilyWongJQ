@@ -18,3 +18,6 @@ function preload(){
     staticImage = loadImage('assets/pico-a.png');
 }
 
+function setup(){
+    
+}
