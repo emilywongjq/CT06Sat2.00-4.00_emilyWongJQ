@@ -160,28 +160,28 @@ function draw(){
     if (keyIsDown(LEFT_ARROW)){
         x-=5;
         if(keyIsDown(SHIFT)){
-            ball.x -= ball_boost;
+            x -= ball_boost;
         }
         else{
-            ball.x -= ball_speed;
+            x -= ball_speed;
         }
     }
     else if (keyIsDown(RIGHT_ARROW)){
         x+=5;
         if(keyIsDown(SHIFT)){
-            ball.x += ball_boost;
+            x += ball_boost;
         }
         else{
-            ball.x += ball_speed;
+            x += ball_speed;
         }
     }
     else if (keyIsDown(UP_ARROW)){
         y-=5;
         if(keyIsDown(SHIFT)){
-            ball.y -= ball_boost;
+            y -= ball_boost;
         }
         else{
-            ball.y -= ball_speed;
+            y -= ball_speed;
         }
     }
     else if (keyIsDown(DOWN_ARROW)){
