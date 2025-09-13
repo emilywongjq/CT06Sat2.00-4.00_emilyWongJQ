@@ -126,20 +126,22 @@
 // }
 
 
-function setup(){
-    createCanvas(600,600);
-}
+// function setup(){
+//     createCanvas(600,600);
+// }
 
-function draw(){
-    background(220);
-    if (mouseX < 100){
-        fill(242, 58, 83);
-    }
-    else if (mouseX < 200){
-        fill(0, 255, 89);
-    }
-    else if (mouseX < 300){
-        fill(58, 101, 242);
-    };
-    circle(width/2,height/2,100);
-}
+// function draw(){
+//     background(220);
+//     if (mouseX < 100){
+//         fill(242, 58, 83);
+//     }
+//     else if (mouseX < 200){
+//         fill(0, 255, 89);
+//     }
+//     else if (mouseX < 300){
+//         fill(58, 101, 242);
+//     };
+//     circle(width/2,height/2,100);
+// }
+
+
