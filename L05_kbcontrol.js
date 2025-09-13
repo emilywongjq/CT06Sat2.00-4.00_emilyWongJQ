@@ -139,7 +139,7 @@ function draw(){
         fill(0,250,0);
     }
     else if (mouseX < 300){
-        circleColour = 'blue'
+        fill(0,0,250);
     }
     fill(circleColour);
     circle(width/2,height/2,100);
