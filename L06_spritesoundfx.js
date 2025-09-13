@@ -3,5 +3,6 @@ function setup(){
 }
 function draw(){
     background(25);
+    if()
     constrain(x ,100, 300);
 }
