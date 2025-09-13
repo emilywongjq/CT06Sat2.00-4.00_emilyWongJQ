@@ -162,7 +162,7 @@ function draw(){
             ball.x -= ball.boost
         }
         else{
-            
+            ball.x -= ball_
         }
     }
     else if (keyIsDown(RIGHT_ARROW)){
