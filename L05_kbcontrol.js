@@ -146,7 +146,7 @@
 
 let x = 0 ;
 function setup(){
-    
+    createCanvas(220)
 }
 
 // let x = 200;
