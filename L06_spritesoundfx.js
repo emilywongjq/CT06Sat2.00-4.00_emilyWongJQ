@@ -15,5 +15,5 @@
 
 let staticImage;
 function preload(){
-    staticImage = load(image)
+    staticImage = loadImage('assets')
 }
