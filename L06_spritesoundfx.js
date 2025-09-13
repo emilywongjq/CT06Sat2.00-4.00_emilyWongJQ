@@ -16,7 +16,7 @@
 let staticImage,soundEffect;
 function preload(){
     staticImage = loadImage('assets/pico-a.png');
-    soundeffect = loadSound('assets/pop.mp3')
+    soundeffect = loadSound('assets/pop.mp3');
 }
 
 function setup(){
@@ -26,6 +26,6 @@ function setup(){
 }
 function keyPressed(){
     if (keyCode === 32){
-        soundEffect.play()
+        soundEffect.play();
     }
 }
