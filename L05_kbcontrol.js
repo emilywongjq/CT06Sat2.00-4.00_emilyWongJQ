@@ -157,8 +157,8 @@ function draw(){
     circle( x, height / 2, 50);
     if (keyIsDown(LEFT_ARROW)){
         x-=5;
-    
     }
+    else if(key is
     else if (keyIsDown(RIGHT_ARROW)){
         x+=5;
     }
