@@ -8,7 +8,7 @@ function draw(){
     background(25);
     square
     if(keyIsDown(UP_ARROW)){
-        rect(dcnnnnnnnnnnnnnnnnnnnnnnnnnnnnyg)
+        rect(dcnnnnnnnnnnnnnnnnnnnnnnnnnnnnygyukycfjyufcjuiyfykuykjhfjyhyjfyjhhhfkhh)
     }
     constrain(x ,100, 300);
 }
