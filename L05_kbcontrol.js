@@ -158,7 +158,7 @@ function draw(){
     if (keyIsDown(LEFT_ARROW)){
         x-=5;
     }
-    else if(key is
+        if(keyIsDown(SHIFT))
     else if (keyIsDown(RIGHT_ARROW)){
         x+=5;
     }
