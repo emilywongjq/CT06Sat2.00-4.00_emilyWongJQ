@@ -161,6 +161,9 @@ function draw(){
         if(keyIsDown(SHIFT)){
             ball.x -= ball.boost
         }
+        else{
+            
+        }
     }
     else if (keyIsDown(RIGHT_ARROW)){
         x+=5;
