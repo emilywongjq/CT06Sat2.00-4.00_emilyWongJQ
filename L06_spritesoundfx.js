@@ -19,5 +19,6 @@ function preload(){
 }
 
 function setup(){
-    cresteCan
+    cresteCanvas(200,200);
+    
 }
