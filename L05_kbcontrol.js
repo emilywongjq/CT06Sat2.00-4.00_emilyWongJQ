@@ -159,10 +159,10 @@ function draw(){
     if (keyIsDown(LEFT_ARROW)){
         x-=5;
         if(keyIsDown(SHIFT)){
-            ball.x -= ball_boost
+            ball.x -= ball_boost;
         }
         else{
-            ball.x -= ball_speed
+            ball.x -= ball_speed;
         }
     }
     else if (keyIsDown(RIGHT_ARROW)){
