@@ -162,5 +162,6 @@ function draw(){
         x+=5;
     }
     else if (keyIsDown(UP_ARROW)){
-        
-    }}
+
+    }
+}
