@@ -167,6 +167,12 @@ function draw(){
     }
     else if (keyIsDown(RIGHT_ARROW)){
         x+=5;
+        if(keyIsDown(SHIFT)){
+            ball.x += ball_boost;
+        }
+        else{
+            ball.x -= ball_speed;
+        }
     }
     else if (keyIsDown(UP_ARROW)){
         y+=5;
