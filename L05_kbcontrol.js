@@ -133,7 +133,7 @@ function setup(){
 function draw(){
     background(220);
     if (mouseX < 100){
-        fill();
+        fill(250,0,0);
     }
     else if (mouseX < 200){
         circleColour = 'green';
