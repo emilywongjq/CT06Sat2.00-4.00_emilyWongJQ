@@ -151,7 +151,8 @@ let x = 200;
 function setup(){
     createCanvas(400,400);
 }
-let ball.boost = 0;
+let ball_boost = 0;
+let ball_speed = 0;
 function draw(){
     background(220);
     circle( x, height / 2, 50);
