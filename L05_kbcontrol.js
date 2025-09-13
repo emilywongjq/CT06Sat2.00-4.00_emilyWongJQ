@@ -149,7 +149,9 @@ function setup(){
     createCanvas(220);
 }
 
-
+function draw(){
+    
+}
 
 // let x = 200;
 
