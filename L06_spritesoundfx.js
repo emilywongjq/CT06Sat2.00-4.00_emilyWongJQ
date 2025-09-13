@@ -20,5 +20,6 @@ function preload(){
 
 function setup(){
     cresteCanvas(200,200);
-    background('')
+    background('light blue');
+    image
 }
