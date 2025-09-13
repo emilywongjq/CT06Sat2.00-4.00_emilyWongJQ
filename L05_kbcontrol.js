@@ -146,56 +146,56 @@
 
 
 
-let x = 200;
-let y = 200;
+// let x = 200;
+// let y = 200;
 
-function setup(){
-    createCanvas(400,400);
-}
-let ball_boost = 1;
-let ball_speed = 0.5;
-function draw(){
-    background(220);
-    circle( x, y, 50);
-    if (keyIsDown(LEFT_ARROW)){
-        x-=5;
-        if(keyIsDown(SHIFT)){
-            x -= ball_boost;
-        }
-        else{
-            x -= ball_speed;
-        }
-    }
-    else if (keyIsDown(RIGHT_ARROW)){
-        x+=5;
-        if(keyIsDown(SHIFT)){
-            x += ball_boost;
-        }
-        else{
-            x += ball_speed;
-        }
-    }
-    else if (keyIsDown(UP_ARROW)){
-        y-=5;
-        if(keyIsDown(SHIFT)){
-            y -= ball_boost;
-        }
-        else{
-            y -= ball_speed;
-        }
-    }
-    else if (keyIsDown(DOWN_ARROW)){
-        y+=5;
-        if(keyIsDown(SHIFT)){
-            y += ball_boost;
-        }
-        else{
-            y += ball_speed;
-        }
-    }
-    if (keyIsDown(shift)){
-        speed += 1;
-    }
-    x = constrain(x, 0, 400);
-    y = constrain(y, 0, 400);
-}
+// function setup(){
+//     createCanvas(400,400);
+// }
+// let ball_boost = 1;
+// let ball_speed = 0.5;
+// function draw(){
+//     background(220);
+//     circle( x, y, 50);
+//     if (keyIsDown(LEFT_ARROW)){
+//         x-=5;
+//         if(keyIsDown(SHIFT)){
+//             x -= ball_boost;
+//         }
+//         else{
+//             x -= ball_speed;
+//         }
+//     }
+//     else if (keyIsDown(RIGHT_ARROW)){
+//         x+=5;
+//         if(keyIsDown(SHIFT)){
+//             x += ball_boost;
+//         }
+//         else{
+//             x += ball_speed;
+//         }
+//     }
+//     else if (keyIsDown(UP_ARROW)){
+//         y-=5;
+//         if(keyIsDown(SHIFT)){
+//             y -= ball_boost;
+//         }
+//         else{
+//             y -= ball_speed;
+//         }
+//     }
+//     else if (keyIsDown(DOWN_ARROW)){
+//         y+=5;
+//         if(keyIsDown(SHIFT)){
+//             y += ball_boost;
+//         }
+//         else{
+//             y += ball_speed;
+//         }
+//     }
+//     if (keyIsDown(shift)){
+//         speed += 1;
+//     }
+//     x = constrain(x, 0, 400);
+//     y = constrain(y, 0, 400);
+// }
