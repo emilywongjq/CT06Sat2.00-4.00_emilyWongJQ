@@ -14,3 +14,6 @@
 // }
 
 let staticImage;
+function preload(){
+    
+}
